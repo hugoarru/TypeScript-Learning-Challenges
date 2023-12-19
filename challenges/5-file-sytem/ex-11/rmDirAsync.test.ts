@@ -1,4 +1,4 @@
-import { beforeEach, afterEach, describe, expect, test } from "@jest/globals";
+import { afterAll, describe, expect, test } from "@jest/globals";
 import * as fs from "fs";
 import { rmDirAsync } from "./rmDirAsync";
 
