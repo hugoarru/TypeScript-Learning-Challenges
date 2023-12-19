@@ -1,6 +1,5 @@
-import { afterAll, describe, expect, test } from "@jest/globals";
+import { describe, expect, test } from "@jest/globals";
 import { readLineByLine } from "./readLineByLine";
-import { checkFileExistsAsync } from "../ex-07/checkFileExistsAsync";
 
 describe("readLineByLine", () => {
   test("should read file line by line", async () => {

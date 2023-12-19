@@ -19,15 +19,12 @@ export async function* readLineByLine(filePath: string): AsyncGenerator<string>;
 2. **Define the function**: Implement the `readLineByLine` function according to the provided signature. This function should:
 
    - Accept a file path as its parameter.
-   - Utilize Node.js's `fs` module to read the file in a streaming manner.
    - Yield each line of the file as it is read, allowing for memory-efficient processing of large files.
    - Handle any errors that may occur during file reading.
 
-3. **Export the Function**: Ensure that your function is correctly exported from the module. This is necessary for it to be imported and tested elsewhere.
+3. **Download datasets**: Before running the tests you need to download a datasets, by running `npm run download-dataset`.
 
-4. **Download datasets**: Before running the tests you need to download a datasets, by running `npm run download-dataset`.
-
-5. **Testing your function**: After completing your implementation, you can test the function to ensure it's working correctly. Use the following command in your terminal:
+4. **Testing your function**: After completing your implementation, you can test the function to ensure it's working correctly. Use the following command in your terminal:
 
    ```Bash
    npm test -- readLineByLine

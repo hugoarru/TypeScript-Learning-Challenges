@@ -31,7 +31,3 @@ export function moveFileAsync(source: string, target: string): Promise<void>;
    ```Bash
    npm test -- moveFileAsync
    ```
-
-7. **Error Handling in Tests**: Remember that your unit tests should also cover scenarios where the file move might fail, to ensure your error handling logic is correct.
-
-8. **Complete the Task**: If your function passes all the tests, you have successfully completed the task. If any tests fail, review and adjust your code before testing again.
